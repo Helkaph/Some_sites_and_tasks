@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 30px;
+    font-family: sans-seriE;
+    min-height: 100vh;
+    width: 100%;
+}
+.avatar {
+    position: absolute;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 5px groove gold;
+    right: 1%;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+[class^="box-"] {
+    display: grid;
+}
+.box-header {
+    grid-area: H;
+}
+.box-name {
+    background: linear-gradient(to top, green, black);
+    box-shadow: inset 0 0 6px black;
+    grid-area: N;
+}
+.box-skills {
+    background: linear-gradient(to top, black, green);
+    box-shadow: inset 0 0 6px black;
+    grid-area: E;
+}
+.box-works {
+    background: linear-gradient(to top, green, green);
+    box-shadow: inset 0 0 6px black;
+    grid-area: W;
+}
+.box-side1 {
+    grid-area: S;
+    background: linear-gradient(to right, black, green);
+}
+.box-side2 {
+    grid-area: D;
+    background: linear-gradient(to right, green, black);
+}
+.box-placeholder {
+    grid-area: P;
+    overflow: hidden;
+}
+.box-footer,
+.box-header {
+    background: linear-gradient(to top, green, black);
+    box-shadow: inset 0 0 6px black;
+}
+.box-footer {
+    grid-area: F;
+}
+ul  {
+    list-style-type: none;
+}
+[class^="box-side"] {
+
+    box-shadow: inset 0 0 6px black;
+}
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(16, 1fr);
+        grid-template-areas: 
+    "S H H H H H H D"
+    "S N N N N N N D"
+    "S N N N N N N D"
+    "S N N N N N N D"
+    "S N N N N N N D"
+    "S W W W W W W D"
+    "S W W W W W W D"
+    "S W W W W W W D"
+    "S E E E E E E D"
+    "S E E E E E E D"
+    "S E E E E E E D"
+    "S P P P P P P D"
+    "S P P P P P P D"
+    "S P P P P P P D"
+    "S F F F F F F D"
+    "S F F F F F F D";
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: 
+    "S H H H H H H H H H H D"
+    "S N N N N N N N N N N D"
+    "S N N N N N N N N N N D"
+    "S N N N N N N N N N N D"
+    "S N N N N N N N N N N D"
+    "S W W W E E E E E E E D"
+    "S W W W E E E E E E E D"
+    "S W W W E E E E E E E D"
+    "S W W W E E E E E E E D"
+    "S P P P P P P P P P P D"
+    "S P P P P P P P P P P D"
+    "S F F F F F F F F F F D";
+    }
+}
+@media (min-width: 1024px) {
+.container {
+    grid-template-columns: repeat(8, 1fr);
+grid-template-rows: repeat(14, 1fr);
+grid-template-areas: 
+"S H H H H H H D"
+"S N N N N N N D"
+"S N N N N N N D"
+"S N N N N N N D"
+"S N N N N N N D"
+"S W W W W W W D"
+"S W W W W W W D"
+"S W W W W W W D"
+"S W W W W W W D"
+"S E E E P P P D"
+"S E E E P P P D"
+"S E E E P P P D"
+"S E E E P P P D"
+"S F F F F F F D";
+}
+}
+.mp,
+.p1,
+.p2 {
+    text-decoration: overline #d62e22;
+}
+.p1 {
+    margin-left: 60px;
+}
+.p2 {
+    margin-left: 200px;
+    font-size: 28px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+a:visited {
+    color: blue;
+}
+li {
+    margin-left: 20px;
+}
+ul,
+p {
+    text-shadow: 3px 2px 10px;
+}
