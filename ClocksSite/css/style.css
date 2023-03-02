@@ -1,0 +1,128 @@
+body,
+p,
+h1,
+h2,
+ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #EBEBEB;
+    font-family: sans-serif;
+}
+header {
+    background-color: #bdbdbd;
+}
+.wrapper {
+    width: 890px;
+    margin: 0 auto;
+    display: flex;
+}
+main {
+    text-align: justify;
+    width: 530px;
+    background-color: #ffffff;
+    padding: 20px 10px 20px 20px;
+    box-sizing: border-box;
+}
+main h1 {
+    font-size: 21px;
+}   
+main p {
+    margin: 10px 0;
+}
+main img {
+    width: 500px;
+    height: 350px;
+    background-size: contain;
+}
+main h2 {
+    font-size: 19px;
+    margin-top: 20px;
+}
+table {
+    border-collapse: separate;
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.price {
+    margin-top: 10px;
+    width: 500px;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.price th {
+    background-color: #EBEBEB;
+}
+.price td,
+.price th {
+    border: 1px solid #000000;
+    text-align: center;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold; 
+    text-align: internal center;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+main h2 {
+    font-size: 19px;
+    margin-top: 20px;
+}
+#menu {
+    min-height: 50px;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+#menu a:hover,
+#menu a.active {
+    text-decoration: underline;
+}
+#menu a:link,
+#menu a.visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a {
+    margin-right: 20px;
+    font-size: 18px;
+}
+aside {
+    width: 360px;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+aside h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+aside p,
+aside li {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+footer {
+    color: #ffffff;
+    min-height: 75px;
+    align-items: center;
+    justify-content: center;
+    background-color: #bdbdbd;
+}
