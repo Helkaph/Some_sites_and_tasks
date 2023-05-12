@@ -21,7 +21,7 @@ body {
 [class^="box-"] {
     display: grid;
     place-items: center;
-    color: white;
+    color: #9a9b9c;
 }
 .container {
     background-image: url(../Images/background.jpg);
@@ -228,7 +228,7 @@ img {
 }
 #Spirit_Text td, #Spirit_Text th {
     text-align: center;
-    background-color: white;
+    background-color: #e3e3e3;
     border: 1px solid #ad6d0c;
     color: #ad6d0c;
 }
