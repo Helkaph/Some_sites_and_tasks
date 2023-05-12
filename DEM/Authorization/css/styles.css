@@ -21,9 +21,9 @@ body {
 }
 #DEM_Required {
     background-color: black;
-    user-select: none;
 }
 #DEM_Access, #DEM_Required {
+    user-select: none;
     display: flex;
     flex-direction: column;
     width: 100vw;
