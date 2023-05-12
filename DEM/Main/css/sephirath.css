@@ -21,7 +21,7 @@
 .spirit:active {
     background-color: #22241b;
     border: 1px solid #6b5c03;
-    box-shadow: inset 3em 1em black;
+    box-shadow: inset 5px 5px 3px black;
 }
 #Hohkmah {
     left: 250px;
